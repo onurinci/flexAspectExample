@@ -1,0 +1,32 @@
+header {
+	background: #eee;
+	line-height: 50px;
+	border-bottom: 2px solid #ddd;
+	text-align: center;
+}
+
+.sliderCont {
+	border: 1px solid red;
+	position: relative;
+	padding-top: 50%;
+}
+
+.sliderContent {
+	display: flex;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border: 2px dashed green;
+}
+
+.sliderContent section {
+	border: 1px solid blue;
+	flex: 3;
+}
+
+.sliderContent .sRight {
+	border: 1px solid yellow;
+	flex: 1;
+}
